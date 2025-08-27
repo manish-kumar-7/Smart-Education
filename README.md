@@ -64,8 +64,11 @@ Smart Education is a full-featured web application designed to modernize online 
 ## 🔐 Environment Variables
 
 Create a `.env` file in the `backend/` directory with the following variables:
-git add backend/.env.example
-git commit -m "Add example .env file for documentation"
-git push origin main
+PORT=           # Your backend port, e.g., 5000
+MONGO_URI=      # Your MongoDB connection string
+JWT_SECRET=     # Secret for JWT token signing
+SECRET_OWNER_KEY= # Secret for JWT token owner signing
+
+
 
 
