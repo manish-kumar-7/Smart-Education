@@ -64,3 +64,8 @@ Smart Education is a full-featured web application designed to modernize online 
 ## 🔐 Environment Variables
 
 Create a `.env` file in the `backend/` directory with the following variables:
+git add backend/.env.example
+git commit -m "Add example .env file for documentation"
+git push origin main
+
+
