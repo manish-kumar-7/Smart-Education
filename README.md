@@ -111,8 +111,8 @@ The backend requires the following environment variables:
 
 ```
 PORT=5000
-MONGO_URI=your_database_url
-JWT_SECRET=your_jwt_secret_key (For user or admin not for owner)
+URL=your_database_url
+SECRET_KEY=your_jwt_secret_key (For user or admin not for owner)
 SECRET_OWNER_KEY=your_Owner_jwt_secret_key (this is for owner only)
 GEMINI_API_KEY=your_gemini_api_key (create gemini account free , search in google , google studio and get API_key )
 ```
